@@ -2,6 +2,12 @@ from django.db import models
 from django.utils import timezone
 from extensions.utils import jalali_converter
 
+# my managers
+class ArticleManager(models.Manager):
+    def published(self):
+        return self.filter(status='p')
+
+
 # Create your models here.
 class Category(models.Model):
     title = models.CharField(max_length=200)
@@ -45,3 +51,5 @@ class Article(models.Model):
     # when you remove a category, it does not display.
     def category_published(self):
         return self.category.filter(status=True)
+
+    objects = ArticleManager()
