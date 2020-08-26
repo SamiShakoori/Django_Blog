@@ -20,7 +20,7 @@
 <div class="container">
     <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
-            {% for article in articles %}
+            {% for article in category.articles.all %}
             <div class="post-preview">
                 <a href="{% url 'blog:detail' article.slug %}">
                     <h2 class="post-title">
@@ -35,7 +35,7 @@
                     {{article.jpublish}}</p>
                 <div>
                     {% for cat in article.category_published.all %}
-                    <a href="{% url 'blog:category' cat.slug %}">#{{cat.title}}</a>
+                    <a href="#">#{{cat.title}}</a>
                     {% endfor %}
                 </div>
             </div>

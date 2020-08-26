@@ -23,7 +23,7 @@ class Article(models.Model):
     )
     title = models.CharField(max_length=200)
     slug = models.SlugField(max_length=100, unique=True)
-    category = models.ManyToManyField(Category, verbose_name='دسته بندی')
+    category = models.ManyToManyField(Category, verbose_name='دسته بندی', related_name='articles')
     description = models.TextField()
     thumbnail = models.ImageField(upload_to='images')
     publish = models.DateTimeField(default=timezone.now)
@@ -41,3 +41,7 @@ class Article(models.Model):
     def jpublish(self):
         return jalali_converter(self.publish)
     jpublish.short_description = 'زمان انتشار'
+
+    # when you remove a category, it does not display.
+    def category_published(self):
+        return self.category.filter(status=True)
