@@ -33,12 +33,17 @@
                 <p class="post-meta">نوشته شده توسط
                     <a href="#">بخش خبرگزاری</a>
                     {{article.jpublish}}</p>
+                <div>
+                    {% for cat in article.category.all %}
+                    <a href="#">#{{cat.title}}</a>
+                    {% endfor %}
+                </div>
             </div>
             <hr>
             {% endfor %}
             <!-- Pager -->
-            <div class="clearfix">
-                <a class="btn btn-primary float-right" href="#">Older Posts &rarr;</a>
+            <div class="clearfix pager-botton">
+                <a class="btn btn-primary float-right" href="#">پست های قدیمی &larr;</a>
             </div>
         </div>
     </div>

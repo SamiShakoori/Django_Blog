@@ -10,11 +10,24 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="965d761f-b0eb-4585-bcc3-2a5460532322" name="Default Changelist" comment="" />
+    <list default="true" id="965d761f-b0eb-4585-bcc3-2a5460532322" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/myproject/blog/templates/blog/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/blog/templates/blog/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/blog/templates/blog/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/blog/templates/blog/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/blog/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/db.sqlite3" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -26,12 +39,18 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/myproject/blog/templates/blog" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/myproject/blog/templates/blog" />
+      <recent name="$PROJECT_DIR$/myproject/blog/static/blog" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -47,6 +66,7 @@
       <option name="presentableId" value="Default" />
       <updated>1598197791763</updated>
       <workItem from="1598197797733" duration="4243000" />
+      <workItem from="1598248682184" duration="28662000" />
     </task>
     <servers />
   </component>
@@ -63,5 +83,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
