@@ -13,9 +13,9 @@
     <list default="true" id="965d761f-b0eb-4585-bcc3-2a5460532322" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myproject/blog/templates/blog/category.html" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/blog/templates/blog/category.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myproject/blog/templates/blog/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/blog/templates/blog/detail.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myproject/blog/templates/blog/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/blog/templates/blog/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myproject/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/blog/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/blog/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +69,7 @@
       <workItem from="1598197797733" duration="4243000" />
       <workItem from="1598248682184" duration="28662000" />
       <workItem from="1598433184067" duration="7788000" />
-      <workItem from="1598686786848" duration="389000" />
+      <workItem from="1598686786848" duration="4486000" />
     </task>
     <servers />
   </component>
