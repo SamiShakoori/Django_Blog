@@ -11,11 +11,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="965d761f-b0eb-4585-bcc3-2a5460532322" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myproject/blog/templates/blog/category.html" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/blog/templates/blog/category.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/blog/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/blog/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/blog/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myproject/blog/templates/blog/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/blog/templates/blog/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myproject/blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/blog/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myproject/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/blog/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +43,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../django_1" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
@@ -69,7 +68,7 @@
       <workItem from="1598197797733" duration="4243000" />
       <workItem from="1598248682184" duration="28662000" />
       <workItem from="1598433184067" duration="7788000" />
-      <workItem from="1598686786848" duration="4486000" />
+      <workItem from="1598686786848" duration="7864000" />
     </task>
     <servers />
   </component>
@@ -87,5 +86,11 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1223" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1598693816189">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="1223" y="310" width="424" height="484" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1598693816189" />
   </component>
 </project>
